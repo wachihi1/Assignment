@@ -1,0 +1,42 @@
+//
+//  Movie-prefix.pch
+//  MovieAPIproject
+//
+//  Created by ilabafrica on 28/07/2016.
+//  Copyright © 2016 ilabafrica. All rights reserved.
+//
+
+#ifndef Movie_prefix_pch
+#define Movie_prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//the API
+#define kTitle @"Title"
+#define kImdbID @"imdbID"
+#define kType @"Type"
+#define kYear @"Year"
+#define kPoster @"Poster"
+
+
+//tags to retrieve contents from the api items -Preview a Selected Film
+#define kRated @"Rated"
+#define kReleased @"Released"
+#define kRuntime @"Runtime"
+#define kDirector @"Director"
+#define kWriter @"Writer"
+#define kActors @"Actors"
+#define kPlot @"Plot"
+#define kPoster @"Poster"
+#define kLanguage @"Language"
+#define kimdbVotes @"imdbVotes"
+#define kGenre @"Genre"
+#define kImdbRating @"imdbRating"
+
+//TO_DO other API
+
+//Base URL
+#define kBaseAPIUrl @"BaseAPIUrl"
+
+#endif /* Movie_prefix_pch */
